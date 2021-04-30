@@ -93,8 +93,6 @@ a:hover {
     font-size: 0.8rem;
     margin: 2rem 0;
     color: rgba(0, 0, 0, 0.5);
-}
-.about {
     line-height: 1.3rem;
 }
 .bottom-part .about-2 .about-head {
@@ -150,8 +148,14 @@ a:hover {
 .bt-image {
     display: none;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    background-color: #000;
+    color: #fefefe;
+}
+.attribution a { color: #00c0f6; }
+.attribution a:hover { color: #00acdb; }
 
 @media screen and (max-width:1050px) {
     .top-part {
