@@ -16,3 +16,4 @@
 
 .prettierignore
 unused
+/js.other.js
