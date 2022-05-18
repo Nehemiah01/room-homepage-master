@@ -157,11 +157,14 @@ a:hover {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    background-color: #000;
-    color: #fefefe;
+    color: #0b0b0b;
+    background-color: #fefefe;
+    margin: 0.5rem auto 0.3rem;
 }
-.attribution a { color: #00c0f6; }
-.attribution a:hover { color: #00acdb; }
+.attribution a { 
+    color: #3e0cf1; 
+    text-decoration: none;
+}
 
 @media screen and (max-width:1050px) {
     .top-part {

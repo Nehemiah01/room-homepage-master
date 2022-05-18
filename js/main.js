@@ -87,7 +87,7 @@ pageNav.firstElementChild.addEventListener('click', previous = (e) => {
 
 pageNav.children[1].addEventListener('click', next = (e) => {
 
-    document.querySelector('#major-navbar img').classList.toggle('display')
+    // document.querySelector('#major-navbar img').classList.toggle('display')
 
     if (i==0) {
         thisElement = currentElement.innerHTML
