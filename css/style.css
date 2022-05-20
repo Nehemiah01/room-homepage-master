@@ -192,16 +192,7 @@ a:hover {
     }
     
 }
-
-@media screen and (max-width: 440px) {
-    .top-part #major-navbar {
-        max-height: 50%;
-        background-size: cover;
-        background-image: url(../images/mobile-image-hero-1.jpg);
-    }
-    .top-part ul li {
-        margin: 1rem 0.5rem;
-    }
+@media screen and (max-width:767px) {
     .bottom-part {
         display: flex;
         flex-direction: column;
@@ -212,6 +203,19 @@ a:hover {
     .bt-image {
         display: block;
     }
+}
+
+@media screen and (max-width: 440px) {
+    .top-part #major-navbar {
+        max-height: 50%;
+        background-size: cover;
+        background-image: url(../images/mobile-image-hero-1.jpg);
+    }
+    .top-part ul li {
+        margin: 1rem 0.5rem;
+    }
+    
+
 }
 
 @media screen and (max-width: 375px) {
